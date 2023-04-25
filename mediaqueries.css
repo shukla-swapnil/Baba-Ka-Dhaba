@@ -1,0 +1,515 @@
+/* 1344px */
+
+@media (max-width: 84em) {
+  .slogan {
+    font-size: 4rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .cta-grid {
+    margin: 0 15rem;
+  }
+
+  .step-text--cta {
+    font-size: 3.5rem;
+  }
+
+  .footer-container {
+    margin: 3rem 10rem;
+  }
+
+  .testimonials {
+    gap: 1rem;
+  }
+}
+
+/*1200px*/
+
+@media (max-width: 75em) {
+  .logo img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    padding-top: 1rem;
+  }
+
+  html {
+    font-size: 56.25%;
+  }
+
+  .header-menu {
+    gap: 2.5rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+
+  .hero-content {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  .buttons a:link {
+    padding: 1.3rem 2.6rem;
+  }
+
+  .section-header {
+    padding-bottom: 3rem;
+  }
+
+  .bookings {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .featured {
+    width: 100rem;
+  }
+
+  .f-logos {
+    height: 3rem;
+  }
+
+  .steps-text {
+    padding: 0 5rem 0 12rem;
+  }
+
+  .large-img.img1 {
+    width: 80%;
+    height: 80%;
+  }
+
+  .section-meals .order-heading {
+    font-size: 3.5rem;
+  }
+
+  .sample-meals {
+    padding: 2rem 4rem;
+    gap: 5rem;
+  }
+
+  .collage {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .regular,
+  .pro {
+    padding: 4rem;
+  }
+
+  .service-features {
+    padding: 2rem;
+  }
+
+  .odd {
+    margin-bottom: 3rem;
+  }
+
+  .cta-grid {
+    margin: 0 8rem;
+  }
+
+  .footer-container {
+    margin: 3rem 4rem;
+  }
+}
+
+/* 944px */
+
+@media (max-width: 59em) {
+  .header-links:link,
+  .header-links:visited {
+    font-size: 4rem;
+  }
+
+  .slogan {
+    margin-left: 1.8rem;
+  }
+
+  html {
+    font-size: 50%;
+  }
+
+  .heading-primary {
+    font-size: 3.4rem;
+    font-weight: 600;
+  }
+
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+
+  .buttons a:link,
+  .buttons a:visited {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+  }
+
+  .featured {
+    width: 88rem;
+  }
+
+  .f-logos {
+    height: 2.5rem;
+  }
+
+  #large-img {
+    width: 60%;
+    height: 37rem;
+  }
+
+  .step-text {
+    font-size: 3rem;
+  }
+
+  .steps:nth-child(2) {
+    margin-bottom: 10rem;
+  }
+
+  .sample-meals {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .meal-list {
+    grid-column: span 2;
+    width: 80%;
+    justify-self: center;
+  }
+
+  .dish-list li {
+    padding-left: 11rem;
+    font-size: 2.5rem;
+  }
+
+  .regular,
+  .pro {
+    padding: 2rem;
+  }
+
+  .pricing-cards {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .pf {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .service-features {
+    padding: 1rem;
+    margin: 0 2rem;
+  }
+
+  .cta-grid {
+    grid-template-columns: 3fr 3fr;
+    margin: 0 2rem;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    padding: 2rem 3rem 4rem 3rem;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5rem;
+    margin: 3rem 10rem;
+  }
+
+  .social-media,
+  .contact-us {
+    grid-column: span 3;
+    gap: 6rem;
+    padding-right: 6rem;
+  }
+
+  .resources,
+  .company,
+  .account {
+    grid-column: span 2;
+  }
+
+  .contact-us {
+    margin-top: 3rem;
+  }
+
+  .section-cta {
+    margin-bottom: 12rem;
+  }
+
+  .section-footer {
+    margin-top: 4rem;
+  }
+
+  .mob-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-icon[name="reorder"] {
+    display: block;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .header-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+  }
+
+  .nav-open .header-menu {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .nav-icon[name="close"] {
+    display: block;
+  }
+
+  .nav-open .nav-icon[name="reorder"] {
+    display: none;
+  }
+}
+
+/* 704px */
+
+@media (max-width: 44em) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .buttons {
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .featured {
+    width: 50rem;
+  }
+
+  .f-logos {
+    height: 2rem;
+  }
+
+  .featured-logos {
+    gap: 2rem;
+  }
+
+  .container {
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+  .steps-text {
+    padding: 0 2rem 0 4rem;
+  }
+
+  .steps-img img {
+    width: 90%;
+  }
+
+  .dish-list li {
+    padding-left: 7rem;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 3rem;
+  }
+
+  .collage {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+  }
+
+  .heading-container {
+    padding: 2rem;
+    padding-left: 6rem;
+  }
+
+  .pricing-cards {
+    gap: 4rem;
+  }
+
+  .regular,
+  .pro {
+    padding: 1rem;
+  }
+
+  .pro::after {
+    top: 3.2rem;
+    right: -7rem;
+  }
+
+  .service-features {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem;
+    gap: 5rem;
+    margin: 0 2rem;
+  }
+
+  .odd {
+    margin-bottom: 0;
+  }
+
+  .cta-grid {
+    grid-template-columns: 1fr;
+    margin: 0 8rem;
+  }
+
+  .cta-img {
+    grid-column: 1;
+    grid-row: 1;
+    height: 30rem;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .footer--logo img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .contact-us {
+    margin-top: 1rem;
+  }
+
+  .footer-head {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+/* 544px */
+
+@media (max-width: 34em) {
+  .section-hero {
+    padding-top: 25rem;
+  }
+
+  .logo {
+    grid-column: span 2;
+    margin-left: 7rem;
+  }
+
+  .tag-line {
+    grid-column: 1/-1;
+    grid-row: 3/4;
+  }
+
+  .featured {
+    width: 40rem;
+  }
+
+  .f-logos {
+    height: 1.5rem;
+  }
+
+  .featured-logos {
+    gap: 1.3rem;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 10rem;
+  }
+
+  .large-img {
+    height: 35rem;
+  }
+
+  .steps-text {
+    margin-bottom: 4rem;
+  }
+
+  .second .steps-img {
+    grid-row: 2;
+  }
+
+  .sample-meals {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .meal-list {
+    width: 100%;
+  }
+  .dish-list {
+    justify-content: flex-start;
+  }
+
+  .dish-list li {
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  .collage {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pf {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .service-features {
+    padding: 0.5rem;
+  }
+
+  .cta-grid {
+    margin: 0 4rem;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 2rem;
+    row-gap: 6rem;
+    margin: 3rem 3rem;
+    margin-top: 1rem;
+    padding-bottom: 30rem;
+  }
+}
